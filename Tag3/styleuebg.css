@@ -1,0 +1,40 @@
+.box div { 
+    width: 500px;
+    height: 500px;
+    position:relative;
+    background-color:rgb(164, 196, 255);
+    color:black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    transition-property: all;
+    transition-duration: 500ms;
+    -o-transition-timing-function: linear;
+    transform-origin:center;
+    
+
+   }   
+   
+   .box div:hover{ 
+    background-color:rgb(255, 144, 144);
+    color:rgb(0, 104, 5);
+    transform: rotate(0.5turn);
+    text-transform: capitalize;
+   }
+
+   .box div:first-of-type:hover { 
+    background-color:lightblue;
+    color:rgb(178, 10, 255);
+    text-decoration-line: overline;
+    transform: rotate(50);
+    z-index: 10;
+    text-decoration-style: wavy;
+   }
+
+   .text{
+    font-family: 'Akzidenz Grotesk';
+    color: rgb(44, 28, 20);
+    font-size: 50px;
+    font-weight: bold;
+   }
