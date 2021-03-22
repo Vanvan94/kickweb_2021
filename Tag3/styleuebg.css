@@ -27,9 +27,9 @@
     background-color:lightblue;
     color:rgb(178, 10, 255);
     text-decoration-line: overline;
-    transform: rotate(50);
-    z-index: 10;
-    text-decoration-style: wavy;
+transform: rotate(50);
+z-index: 10;
+text-decoration-style: wavy;
    }
 
    .text{

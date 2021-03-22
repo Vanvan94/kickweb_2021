@@ -6,7 +6,7 @@
 
 #container{
   position: relative;
-  background-color: #693d3a;
+  background-color: #5c3633;
   margin: 2%;
   padding-left: 1px;
   padding-top: 15px;
@@ -15,13 +15,13 @@
 }
 
 p {
-  line-height:78%;
+  line-height:67%;
   padding-bottom: 10px;
   padding-left: 0px;
   margin:0px;
-  margin-top: 5px;
+  margin-top: 3%;
   margin-left: 0px;
-  letter-spacing: -10px;
+  letter-spacing: -13px;
   opacity: 0.9; 
   }
 
@@ -33,14 +33,14 @@ p {
 
   .title{
     font-family: 'Akzidenz Grotesk';
-    color: rgb(44, 28, 20);
-    font-size: 190px;
-    font-weight: bold;
+    color: rgb(41, 31, 27);
+    font-size: 199px;
+    opacity: 0.8;
   }
 
 #text {
   font-family: 'Akzidenz Grotesk';
-  color: #3b2724;
+  color: rgb(41, 31, 27);
   line-height: 0.9;
   font-size: 20px;
   margin-left: 0px;
@@ -53,5 +53,5 @@ p {
   margin-right: 40px;
   margin-bottom: 10px;
   padding-top: 50%;
-  background-color: #b7302d;
+  background-color: #bb1a17;
 }
