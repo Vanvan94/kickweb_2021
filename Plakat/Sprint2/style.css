@@ -4,74 +4,66 @@
   url('Font/akzidenz-grotesk-bold.ttf') format('truetype');
 }
 body {
-  width: calc(2em * 2);
-  height: calc(2em * 2);
+  position: relative;
+  background-color: #bb1717;
+  animation: color 7s infinite;  
+  margin: 0%;
+  padding: 0%;
 }
 #container{
   position: relative;
+  display: block;
   background-color: #693d3a;
-  margin: 2%;
-  padding-left: 1px;
-  padding-top: 15px;
-  height: 830px;
-  width: 570px;
-}
+  box-shadow: 0 0 1em black; 
+  width: max-content;
+  height: max-content;
+  padding-left: 0%;
+  padding-top: 5%;
+  padding-right: 3%;
 
-p {
-  line-height:78%;
-  padding-bottom: 10px;
-  padding-left: 0px;
-  margin:0px;
-  margin-top: 5px;
-  margin-left: 0px;
-  letter-spacing: -10px;
-  opacity: 0.9;
+
   animation-name: floating; 
   animation-duration: 3s; 
   animation-iteration-count: infinite; 
   animation-timing-function: ease-in-out; 
+}
 
-  }
-
-  h2 {
-  padding-bottom: 0px;
-  padding-left: 0px;
-  margin:0px;
-  }
-
-  .title{
+  #title{
     font-family: 'Akzidenz Grotesk';
-    color: rgb(44, 28, 20);
+    line-height: 75%;
+    letter-spacing: -15px;
+    color: rgb(41, 31, 27);
     font-size: 190px;
-   
+    opacity: 0.9;
+
   }
 
 #text {
   font-family: 'Akzidenz Grotesk';
-  color: #3b2724;
+  color: rgb(41, 31, 27);
   line-height: 0.9;
-  font-size: 20px;
-  margin-left: 0px;
-  padding-left: 12px;
-  opacity: 0.8; 
-  
+  font-size: 30px;
+  letter-spacing: -1px;
+  margin-left: 1%;
+  padding-left: 2%;
+  opacity: 0.9; 
 }
 
 #red{
-  margin-left: 25px;
-  margin-right: 40px;
-  margin-bottom: 10px;
-  padding-top: 50%;
-  background-color: #b7302d;
-  animation-name: color;
-  animation-duration: 6s;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  padding-top: 60%;
+  background-color: #bb1717;
+  animation: color 7s infinite;   
 }
 
 
 
 @keyframes color {
-  from {background-color: #3b2724}
-  to {background-color: #b7302d;}
+  0% {background:#bb1717;}
+  50% {background:rgb(223, 202, 12);}
+  100% {background: #bb1717;}
 }
 
 .floating {   
@@ -94,3 +86,4 @@ body {
   display:grid;
   place-content:center;
 }
+
