@@ -18,7 +18,7 @@
    
    .box div:hover{ 
     background-color:rgb(255, 144, 144);
-    color:rgb(0, 104, 5);
+    color:rgb(1, 139, 8);
     transform: rotate(0.5turn);
     text-transform: capitalize;
    }
