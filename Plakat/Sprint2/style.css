@@ -1,8 +1,9 @@
 @font-face { 
   font-family: 'Akzidenz Grotesk';
   src: local('Akzidenz Grotesk Bold'), local('akzidenz-grotesk-bold'),
-  url('Font/akzidenz-grotesk-bold.ttf') format('truetype');
+  url('../Font/akzidenz-grotesk-bold.ttf') format('truetype');
 }
+
 body {
   position: relative;
   background-color: #bb1717;
@@ -35,7 +36,11 @@ body {
     color: rgb(41, 31, 27);
     font-size: 190px;
     opacity: 0.9;
+  }
 
+  #title:hover{
+    color: beige;
+    opacity: 0.8;
   }
 
 #text {
@@ -86,4 +91,5 @@ body {
   display:grid;
   place-content:center;
 }
+
 

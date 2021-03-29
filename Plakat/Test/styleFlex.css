@@ -1,0 +1,83 @@
+@font-face { 
+    font-family: 'Akzidenz Grotesk';
+    src: local('Akzidenz Grotesk Bold'), local('akzidenz-grotesk-bold'),
+    url('../Font/akzidenz-grotesk-bold.ttf') format('truetype');
+  }
+
+  body {
+    background:  #693d3a; 
+  }
+
+  .wrapper {
+    display:flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    
+  }
+  
+  .wrapper > * {
+    padding: 5%;
+    flex: 1 100%;
+  }
+  
+  .header {
+    background: #693d3a;
+    font-size: 18vw;
+    font-family: 'Akzidenz Grotesk';
+    text-align: middle;
+    color: rgb(41, 31, 27);
+    opacity: 0.9;
+  }
+
+  
+  .footer {
+    background:  #693d3a;
+    font-size: 1vw;
+  }
+  
+  .main {
+    text-align: middle;
+    animation: color 7s infinite;  
+    font-size: 3vw;
+    color: rgb(41, 31, 27);
+    opacity: 0.9;
+  }
+  
+  .aside-1 {
+    background:  #693d3a;
+  
+  }
+  
+  .aside-2 {
+    background:  #693d3a;
+  }
+ 
+  
+  @media all and (min-width: 400px) {
+    .aside { flex: 1 0 0; }
+    .main    { flex: 3 0px; }
+    .aside-1 { order: 1; } 
+    .main    { order: 4; }
+    .aside-2 { order: 2; }
+    .footer  { order: 3; }
+  }
+  
+  @media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .aside-1 { order: 1; } 
+    .main    { order: 2; }
+    .aside-2 { order: 3; }
+    .footer  { order: 4; }
+  }
+  
+  body {
+    padding: 2em; 
+  }
+
+
+  @keyframes color {
+    0% {background:#bb1717;}
+    50% {background:rgb(223, 202, 12);}
+    100% {background: #bb1717;}
+  }

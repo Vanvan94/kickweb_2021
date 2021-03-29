@@ -1,7 +1,7 @@
 @font-face { 
   font-family: 'Akzidenz Grotesk';
   src: local('Akzidenz Grotesk Bold'), local('akzidenz-grotesk-bold'),
-  url('Font/akzidenz-grotesk-bold.ttf') format('truetype');
+  url('../Font/akzidenz-grotesk-bold.ttf') format('truetype');
 }
 
 #container{
